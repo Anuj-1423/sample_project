@@ -1,0 +1,27 @@
+body {
+    background: url("../images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, select, button {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    background: #e63946;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
